@@ -1,4 +1,5 @@
 Helo
 This is my 1st commit in git 
 This is my 2nd machine commit
-wah wah this is my 1st machine commit 
+wah wah this is my 1st machine commit
+acha yr This is my 2nd machine commit 
