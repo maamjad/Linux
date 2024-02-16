@@ -1,0 +1,68 @@
+Linux Basic Commands with Description:
+
+Mastering basic Linux commands is essential for efficient system administration. Here's a comprehensive list of basic Linux commands:
+date: Display the current date and time.
+cal: Display a calendar.
+ls: List directory contents.
+ls -l: List directory contents in long format.
+ls -a: List directory contents including hidden files.
+ls -al: List directory contents in long format including hidden files.
+mkdir: Create a new directory.
+pwd: Print the current working directory.
+touch: Create an empty file or update file timestamps.
+clear: Clear the terminal screen.
+cd: Change directory.
+cd ..: Move to the parent directory.
+rm: Remove files or directories.
+cat: Concatenate and display file content.
+echo: Display a line of text/string.
+zcat: Display compressed file content.
+head: Output the first part of files.
+tail: Output the last part of files.
+less: Display file contents one screen at a time.
+more: Display file contents one screen at a time (backward compatible).
+cp: Copy files or directories.
+mv: Move or rename files or directories.
+diff: Compare files line by line.
+vi: Text editor (terminal-based).
+vim: Improved version of vi.
+nano: Simple text editor.
+df -h: Display disk usage in human-readable format.
+top: Display Linux processes.
+ps: Display information about processes.
+kill: Terminate processes.
+free: Display memory usage.
+vmstat: Display virtual memory statistics.
+htop: Interactive process viewer.
+iftop: Display bandwidth usage on an interface.
+atop: Advanced interactive system monitor.
+netstat: Display network connections.
+nslookup: Query Internet name servers interactively.
+dig: DNS lookup utility.
+ip a: Show information for all network interfaces.
+ping: Send ICMP echo request to network hosts.
+ifconfig: Configure network interfaces.
+mtr: Network diagnostic tool.
+hostname: Print or set system hostname.
+whois: Lookup domain registration information.
+wget: Download files from the web.
+watch: Execute a program periodically.
+nmap: Network exploration and security auditing tool.
+which: Locate a command.
+man: Display manual pages.
+uname: Print system information.
+uptime: Display system uptime.
+who: Display who is logged in.
+whoami: Print effective username.
+id: Print user and group information.
+sudo -i: Execute a command as another user.
+apt-get: Package manager for Debian-based systems.
+yum: Package manager for Red Hat-based systems.
+grep: Search text patterns.
+find: Search files and directories.
+zip: Package and compress files.
+unzip: Unzip compressed files.
+alias: Create aliases for commands.
+history: Display command history.
+exit: Exit the shell.
+These commands form the backbone of Linux administration and are crucial for managing and maintaining Linux systems effectively.
