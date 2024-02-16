@@ -1,0 +1,34 @@
+As a  Linux administrator, it's important to understand the various types of users in a Linux system and how to manage them effectively.
+System User: These users are created to run non-interactive or background processes. Examples include system services like apache, mysql, etc.
+
+
+Root User: The root user (UID 0) has superuser privileges and can perform any operation on the system. 
+
+
+Normal User: Regular users who interact with the system for various tasks. They have limited permissions and can access only files and resources they have been granted permission to access.
+Creating a User in Ubuntu
+
+To create a user named 'dev' in Ubuntu, you can follow these steps:
+
+
+sudo useradd dev           # Create the user
+sudo passwd dev            # Set password for the user
+cat /etc/passwd            # View user details
+sudo userdel dev           # Delete the user
+su dev                     # Switch to the user (if needed)
+
+Creating a Group in Ubuntu
+To create a group named 'devops' in Ubuntu and add a user 'dev' to it, you can use the following commands:
+sudo groupadd devops        # Create the group
+cat /etc/group              # View group details
+sudo usermod -aG devops dev  # Add user 'dev' to the group 'devops'
+
+
+Permission Management in Linux
+The chmod command is used to change file permissions in Linux. It allows you to modify the read, write, and execute permissions of files and directories for the owner, group, and others.
+For example, to give read, write, and execute permissions to the owner, and only read and execute permissions to the group and others, you can use:
+chmod 755 filename
+This command sets the file permissions as follows:
+Owner: read, write, execute (4,2,1=7)
+Understanding and managing permissions are crucial for maintaining security and access control in Linux systems.
+
